@@ -42,3 +42,10 @@ Parent-file contents:
                       data-options="{'href': 'http://www.google.co.uk', 'text': 'click me!!!'}"></template>
         </div>
     {{/.}}
+
+<br/>
+# Missing features / TODO:
+<br/>
+The plugin doesn't cope with recursive nesting. I expect to add this soon. Feel free to fork me if you're impatient.
+
+The plugin doesn't yet cache loaded templates, or even check if it's already loaded one. If you try to load the same sub-template multiple times it'll likely fail.
