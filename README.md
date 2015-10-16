@@ -38,7 +38,7 @@ Parent-file contents:
             </div>
             
             <template type="handlebars" name="find-out-more-button"
-                      data-src="Shared/Atoms/Lists/find-out-more-button.handlebars"
+                      data-src="/find-out-more-button.handlebars"
                       data-options="{'href': 'http://www.google.co.uk', 'text': 'click me!!!'}"></template>
         </div>
     {{/.}}
