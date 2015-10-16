@@ -3,6 +3,7 @@
 # Load template with jQuery helper
 This forked version of Mike Timmerman's load-template plugin allows you to define a sub-template in markup and have it loaded automatically.
 
+
 # How to use it?
 Refer to Mike's documentation for an understanding of the base plugin
 
@@ -12,8 +13,9 @@ To define your sub-template in markup add it to your mustache / handlebars templ
     data-src="[path to the template]"
     data-options="[JSON String of template data]"></template>
     
-Here's an example of usage:
-
+<br/>
+# Example usage:
+<br/>
 Sub-Template file contents (find-out-more-button.handlebars):
 
     {{#.}}
@@ -21,6 +23,8 @@ Sub-Template file contents (find-out-more-button.handlebars):
             {{{atts}}}><span>{{text}}{{^text}}Find out more{{/text}}</span></a>
     {{/.}}
     
+
+<br/>
 Parent-file contents:
 
     {{#.}}
